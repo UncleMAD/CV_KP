@@ -1,0 +1,30 @@
+Epoch 1/10: 100%|██████████| 105/105 [01:11<00:00,  1.47it/s]
+✅ Model saved.
+Epoch 1: Loss=5.2942, Train Acc=0.0060, Val Acc=0.0102
+Epoch 2/10: 100%|██████████| 105/105 [01:09<00:00,  1.50it/s]
+Epoch 2: Loss=4.6122, Train Acc=0.0057, Val Acc=0.0099
+Epoch 3/10:   9%|▊         | 9/105 [00:06<01:11,  1.35it/s]
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6073BF0&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA48E4E00&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6237530&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6256DB0&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    ToTensor%28%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6234D40&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA603BDD0&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6073BF0&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA48E4E00&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6237530&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6256DB0&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    ToTensor%28%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6234D40&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA603BDD0&gt;" isContainer="True" shape="105" />
+</xml>

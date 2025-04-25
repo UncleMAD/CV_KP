@@ -1,0 +1,38 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-04-24T18:51:16.567706Z",
+  "program": "sample.ipynb",
+  "codePath": "sample.ipynb",
+  "email": "nsenyakin@gmail.com",
+  "root": "C:\\Users\\Школа Рока\\Documents\\УНИВЕР\\KP",
+  "host": "RockTheSchoolDESKTOP01",
+  "executable": "C:\\ProgramData\\miniconda3\\python.exe",
+  "codePathLocal": "sample.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 4,
+  "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1000082132992",
+      "used": "129689075712"
+    }
+  },
+  "memory": {
+    "total": "34295435264"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 4
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060 SUPER",
+      "memoryTotal": "8589934592",
+      "cudaCores": 2176,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

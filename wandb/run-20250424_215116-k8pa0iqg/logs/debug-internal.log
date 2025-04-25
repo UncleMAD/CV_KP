@@ -1,0 +1,19 @@
+{"time":"2025-04-24T21:51:16.5698618+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"C:\\Users\\Школа Рока\\Documents\\УНИВЕР\\KP\\wandb\\run-20250424_215116-k8pa0iqg\\logs\\debug-core.log"}
+{"time":"2025-04-24T21:51:16.8960837+03:00","level":"INFO","msg":"created new stream","id":"k8pa0iqg"}
+{"time":"2025-04-24T21:51:16.8960837+03:00","level":"INFO","msg":"stream: started","id":"k8pa0iqg"}
+{"time":"2025-04-24T21:51:16.8960837+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"k8pa0iqg"}
+{"time":"2025-04-24T21:51:16.8960837+03:00","level":"INFO","msg":"handler: started","stream_id":"k8pa0iqg"}
+{"time":"2025-04-24T21:51:16.8960837+03:00","level":"INFO","msg":"sender: started","stream_id":"k8pa0iqg"}
+{"time":"2025-04-24T21:51:17.2863128+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-24T22:09:45.1560933+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-24T22:09:45.1585995+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-24T22:09:50.9205914+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-24T22:09:50.9590859+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-24T22:09:50.9600857+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-24T22:09:51.9617178+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5624544,"progress":"4.7KB/4.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5624544,"progress":"232B/232B"},{"desc":"uploading config.yaml","runtime_seconds":0.1661141,"progress":"637B/637B"}],"total_operations":3}}
+{"time":"2025-04-24T22:09:52.1389459+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-24T22:09:52.4144211+03:00","level":"INFO","msg":"stream: closing","id":"k8pa0iqg"}
+{"time":"2025-04-24T22:09:52.4154215+03:00","level":"INFO","msg":"handler: closed","stream_id":"k8pa0iqg"}
+{"time":"2025-04-24T22:09:52.4154215+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"k8pa0iqg"}
+{"time":"2025-04-24T22:09:52.4156304+03:00","level":"INFO","msg":"sender: closed","stream_id":"k8pa0iqg"}
+{"time":"2025-04-24T22:09:52.4156304+03:00","level":"INFO","msg":"stream: closed","id":"k8pa0iqg"}

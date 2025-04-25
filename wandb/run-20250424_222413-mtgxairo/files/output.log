@@ -1,0 +1,124 @@
+Epoch 1/20: 100%|██████████| 105/105 [01:10<00:00,  1.49it/s]
+✅ Model saved.
+Epoch 1: Loss=4.6149, Train Acc=0.0189, Val Acc=0.0240
+Epoch 2/20: 100%|██████████| 105/105 [01:10<00:00,  1.49it/s]
+✅ Model saved.
+Epoch 2: Loss=4.5284, Train Acc=0.0255, Val Acc=0.0288
+Epoch 3/20: 100%|██████████| 105/105 [01:10<00:00,  1.48it/s]
+✅ Model saved.
+Epoch 3: Loss=4.4535, Train Acc=0.0348, Val Acc=0.0354
+Epoch 4/20: 100%|██████████| 105/105 [01:10<00:00,  1.49it/s]
+✅ Model saved.
+Epoch 4: Loss=4.3890, Train Acc=0.0474, Val Acc=0.0420
+Epoch 5/20: 100%|██████████| 105/105 [01:10<00:00,  1.49it/s]
+✅ Model saved.
+Epoch 5: Loss=4.3267, Train Acc=0.0471, Val Acc=0.0492
+Epoch 6/20: 100%|██████████| 105/105 [01:10<00:00,  1.49it/s]
+✅ Model saved.
+Epoch 6: Loss=4.2638, Train Acc=0.0597, Val Acc=0.0546
+Epoch 7/20: 100%|██████████| 105/105 [01:10<00:00,  1.49it/s]
+Epoch 7: Loss=4.2261, Train Acc=0.0651, Val Acc=0.0543
+Epoch 8/20: 100%|██████████| 105/105 [01:11<00:00,  1.48it/s]
+✅ Model saved.
+Epoch 8: Loss=4.1905, Train Acc=0.0630, Val Acc=0.0576
+Epoch 9/20: 100%|██████████| 105/105 [01:12<00:00,  1.44it/s]
+✅ Model saved.
+Epoch 9: Loss=4.1562, Train Acc=0.0705, Val Acc=0.0603
+Epoch 10/20: 100%|██████████| 105/105 [01:11<00:00,  1.46it/s]
+✅ Model saved.
+Epoch 10: Loss=4.1211, Train Acc=0.0798, Val Acc=0.0639
+Epoch 11/20: 100%|██████████| 105/105 [01:11<00:00,  1.47it/s]
+✅ Model saved.
+Epoch 11: Loss=4.0657, Train Acc=0.0852, Val Acc=0.0702
+Epoch 12/20: 100%|██████████| 105/105 [01:12<00:00,  1.44it/s]
+✅ Model saved.
+Epoch 12: Loss=4.0529, Train Acc=0.0933, Val Acc=0.0705
+Epoch 13/20: 100%|██████████| 105/105 [01:11<00:00,  1.46it/s]
+Epoch 13: Loss=4.0456, Train Acc=0.0909, Val Acc=0.0696
+Epoch 14/20:  82%|████████▏ | 86/105 [01:00<00:13,  1.42it/s]
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6073BF0&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA48E4E00&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6237530&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6256DB0&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    ToTensor%28%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6234D40&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA603BDD0&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D43BD06B0&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2120&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D449BE330&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D44983A70&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    RandomHorizontalFlip%28p=0.5%29%0A  ...erpolation=nearest%2C expand=False%2C fill=0%29%0A    ToTensor%28%29%0A    Normalize%28mean=%5B0.485%2C 0.456%2C 0.406%5D%2C std=%5B0.229%2C 0.224%2C 0.225%5D%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D43BA71A0&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2000&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D43BD06B0&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2120&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D449BE330&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D44983A70&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    RandomHorizontalFlip%28p=0.5%29%0A  ...erpolation=nearest%2C expand=False%2C fill=0%29%0A    ToTensor%28%29%0A    Normalize%28mean=%5B0.485%2C 0.456%2C 0.406%5D%2C std=%5B0.229%2C 0.224%2C 0.225%5D%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D43BA71A0&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2000&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D44981190&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2000&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6257680&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6257710&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    RandomHorizontalFlip%28p=0.5%29%0A  ...erpolation=nearest%2C expand=False%2C fill=0%29%0A    ToTensor%28%29%0A    Normalize%28mean=%5B0.485%2C 0.456%2C 0.406%5D%2C std=%5B0.229%2C 0.224%2C 0.225%5D%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA62560F0&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D3DA0&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D44981190&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2000&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6257680&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6257710&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    RandomHorizontalFlip%28p=0.5%29%0A  ...erpolation=nearest%2C expand=False%2C fill=0%29%0A    ToTensor%28%29%0A    Normalize%28mean=%5B0.485%2C 0.456%2C 0.406%5D%2C std=%5B0.229%2C 0.224%2C 0.225%5D%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA62560F0&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D3DA0&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D44981190&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2000&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6257680&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6257710&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    RandomHorizontalFlip%28p=0.5%29%0A  ...erpolation=nearest%2C expand=False%2C fill=0%29%0A    ToTensor%28%29%0A    Normalize%28mean=%5B0.485%2C 0.456%2C 0.406%5D%2C std=%5B0.229%2C 0.224%2C 0.225%5D%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA62560F0&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D3DA0&gt;" isContainer="True" shape="105" />
+</xml>
+<xml><var name="_dummy_ipython_val"  />
+<var name="_dummy_special_var"  />
+<var name="device" type="device" qualifier="torch" value="device%28type=%27cuda%27%29" isContainer="True" />
+<var name="model" type="AircraftCNN" qualifier="__main__" value="AircraftCNN%28%0A  %28conv1%29%3A Conv2d%283%2C 32%2C kernel_size=%283%2C 3%29%2C stride=%281%2C 1%29%2C padding=%281%2C 1%29%29%0A  %28bn1%29%3A BatchNorm2d%2832%2C eps=1e-05%2C m...ures=512%2C bias=True%29%0A  %28dropout%29%3A Dropout%28p=0.5%2C inplace=False%29%0A  %28fc2%29%3A Linear%28in_features=512%2C out_features=100%2C bias=True%29%0A%29" isContainer="True" />
+<var name="test_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017D44981190&gt;" isContainer="True" shape="3333" />
+<var name="test_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D2000&gt;" isContainer="True" shape="105" />
+<var name="train_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA6257680&gt;" isContainer="True" shape="3334" />
+<var name="train_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017CA6257710&gt;" isContainer="True" shape="105" />
+<var name="transform" type="Compose" qualifier="torchvision.transforms.transforms" value="Compose%28%0A    Resize%28size=%28256%2C 256%29%2C interpolation=bilinear%2C max_size=None%2C antialias=True%29%0A    RandomHorizontalFlip%28p=0.5%29%0A  ...erpolation=nearest%2C expand=False%2C fill=0%29%0A    ToTensor%28%29%0A    Normalize%28mean=%5B0.485%2C 0.456%2C 0.406%5D%2C std=%5B0.229%2C 0.224%2C 0.225%5D%29%0A%29" isContainer="True" />
+<var name="val_dataset" type="AircraftDataset" qualifier="__main__" value="%3C__main__.AircraftDataset object at 0x0000017CA62560F0&gt;" isContainer="True" shape="3333" />
+<var name="val_loader" type="DataLoader" qualifier="torch.utils.data.dataloader" value="%3Ctorch.utils.data.dataloader.DataLoader object at 0x0000017D449D3DA0&gt;" isContainer="True" shape="105" />
+</xml>
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to C:\Users\Школа Рока/.cache\torch\hub\checkpoints\resnet18-f37072fd.pth
+100%|██████████| 44.7M/44.7M [00:04<00:00, 9.58MB/s]
