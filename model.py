@@ -3,7 +3,7 @@ import torch.nn.functional as F
 
 
 class PlantCNN(nn.Module):
-    def __init__(self, num_classes):
+    def __init__(self, num_classes=47):
         super(PlantCNN, self).__init__()
         self.conv1 = nn.Conv2d(3, 32, kernel_size=3, padding=1)
         self.bn1 = nn.BatchNorm2d(32)
